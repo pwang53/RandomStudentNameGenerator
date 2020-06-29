@@ -41,10 +41,15 @@ public class RandomStudent {
     // Read from file and store the name into array
     private void setUpNameArray() throws Exception {
         // Get the file
-        File file = new File("src/main/resources/NameList.txt");
+        //File file = new File("src/main/resources/NameList.txt");
+
+        // If use File directly to read, then it will cause problem if .jar not in the same folder with resource file
+        // So use InputStream to deal with this problem
+        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        InputStream is = classloader.getResourceAsStream("NameList.txt");
 
         // Create buffered reader to read the file
-        BufferedReader br = new BufferedReader(new FileReader(file));
+        BufferedReader br = new BufferedReader(new InputStreamReader(is));
 
         // Declare the line
         String line;
