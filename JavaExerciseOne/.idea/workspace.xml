@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaExerciseOne:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f8bab0-4461-486d-a0d5-15b30c6d350a" name="Default Changelist" comment="" />
+    <list default="true" id="37f8bab0-4461-486d-a0d5-15b30c6d350a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaExerciseOne_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExerciseOne/RandomStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExerciseOne/RandomStudent.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -33,6 +46,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dyFcwuRsWAb3bkT7SbDHaNBs4K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,14 +54,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Application.ProjectMain">
+  <component name="RunManager" selected="JAR Application.JavaExerciseOne.jar">
     <configuration name="ProjectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExerciseOne.ProjectMain" />
       <module name="JavaExerciseOne" />
@@ -74,8 +89,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaExerciseOne.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/JavaExerciseOne.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.JavaExerciseOne.jar" />
         <item itemvalue="Application.ProjectMain" />
         <item itemvalue="Application.RandomStudent" />
       </list>
@@ -85,8 +105,8 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$/../../474Project" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../a/474Project" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../474Project" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../a/474Project" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../external-command-execution-framework" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../external-command-execution-framework-master" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../../graphql-client-github" value="PREVIEW" />
@@ -104,6 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593389508889</updated>
       <workItem from="1593389510423" duration="9219000" />
+      <workItem from="1593402736792" duration="528000" />
     </task>
     <servers />
   </component>
@@ -120,43 +141,51 @@
       <screen x="54" y="23" width="1386" height="877" />
     </state>
     <state x="522" y="216" key="#com.intellij.ide.util.MemberChooser/54.23.1386.877@54.23.1386.877" timestamp="1593396388252" />
-    <state width="1398" height="184" key="GridCell.Tab.0.bottom" timestamp="1593399812510">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="487" y="252" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593402776983">
+      <screen x="52" y="23" width="1388" height="877" />
+    </state>
+    <state x="487" y="252" key="#com.intellij.ide.util.TreeClassChooserDialog/52.23.1388.877@52.23.1388.877" timestamp="1593402776983" />
+    <state width="1338" height="172" key="GridCell.Tab.0.bottom" timestamp="1593403326307">
+      <screen x="50" y="23" width="1390" height="877" />
     </state>
     <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593399812510" />
     <state width="676" height="184" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593398308665" />
-    <state width="676" height="184" key="GridCell.Tab.0.bottom/50.23.1390.877@50.23.1390.877" timestamp="1593397786210" />
+    <state width="1338" height="172" key="GridCell.Tab.0.bottom/50.23.1390.877@50.23.1390.877" timestamp="1593403326307" />
     <state width="676" height="184" key="GridCell.Tab.0.bottom/52.23.1388.877@52.23.1388.877" timestamp="1593398803358" />
     <state width="676" height="184" key="GridCell.Tab.0.bottom/54.23.1386.877@54.23.1386.877" timestamp="1593398590676" />
     <state width="1195" height="185" key="GridCell.Tab.0.bottom/60.23.1380.877@60.23.1380.877" timestamp="1593395605069" />
-    <state width="1398" height="184" key="GridCell.Tab.0.center" timestamp="1593399812509">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1338" height="172" key="GridCell.Tab.0.center" timestamp="1593403326306">
+      <screen x="50" y="23" width="1390" height="877" />
     </state>
     <state width="1398" height="184" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593399812509" />
     <state width="676" height="184" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593398308664" />
-    <state width="676" height="184" key="GridCell.Tab.0.center/50.23.1390.877@50.23.1390.877" timestamp="1593397786209" />
+    <state width="1338" height="172" key="GridCell.Tab.0.center/50.23.1390.877@50.23.1390.877" timestamp="1593403326306" />
     <state width="676" height="184" key="GridCell.Tab.0.center/52.23.1388.877@52.23.1388.877" timestamp="1593398803356" />
     <state width="676" height="184" key="GridCell.Tab.0.center/54.23.1386.877@54.23.1386.877" timestamp="1593398590675" />
     <state width="1195" height="185" key="GridCell.Tab.0.center/60.23.1380.877@60.23.1380.877" timestamp="1593395605068" />
-    <state width="1398" height="184" key="GridCell.Tab.0.left" timestamp="1593399812508">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1338" height="172" key="GridCell.Tab.0.left" timestamp="1593403326306">
+      <screen x="50" y="23" width="1390" height="877" />
     </state>
     <state width="1398" height="184" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593399812508" />
     <state width="676" height="184" key="GridCell.Tab.0.left/0.0.1440.900@0.23.1440.877" timestamp="1593398308224" />
     <state width="676" height="184" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593398308664" />
-    <state width="676" height="184" key="GridCell.Tab.0.left/50.23.1390.877@50.23.1390.877" timestamp="1593397786208" />
+    <state width="1338" height="172" key="GridCell.Tab.0.left/50.23.1390.877@50.23.1390.877" timestamp="1593403326306" />
     <state width="676" height="184" key="GridCell.Tab.0.left/52.23.1388.877@52.23.1388.877" timestamp="1593398803356" />
     <state width="676" height="184" key="GridCell.Tab.0.left/54.23.1386.877@54.23.1386.877" timestamp="1593398590674" />
     <state width="1195" height="185" key="GridCell.Tab.0.left/60.23.1380.877@60.23.1380.877" timestamp="1593395605067" />
-    <state width="1398" height="184" key="GridCell.Tab.0.right" timestamp="1593399812509">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1338" height="172" key="GridCell.Tab.0.right" timestamp="1593403326306">
+      <screen x="50" y="23" width="1390" height="877" />
     </state>
     <state width="1398" height="184" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593399812509" />
     <state width="676" height="184" key="GridCell.Tab.0.right/0.0.1440.900@50.23.1390.877" timestamp="1593397758452" />
     <state width="676" height="184" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593398308665" />
-    <state width="676" height="184" key="GridCell.Tab.0.right/50.23.1390.877@50.23.1390.877" timestamp="1593397786209" />
+    <state width="1338" height="172" key="GridCell.Tab.0.right/50.23.1390.877@50.23.1390.877" timestamp="1593403326306" />
     <state width="676" height="184" key="GridCell.Tab.0.right/52.23.1388.877@52.23.1388.877" timestamp="1593398803357" />
     <state width="676" height="184" key="GridCell.Tab.0.right/54.23.1386.877@54.23.1386.877" timestamp="1593398590676" />
     <state width="1195" height="185" key="GridCell.Tab.0.right/60.23.1380.877@60.23.1380.877" timestamp="1593395605068" />
+    <state x="238" y="43" key="SettingsEditor" timestamp="1593403001346">
+      <screen x="52" y="23" width="1388" height="877" />
+    </state>
+    <state x="238" y="43" key="SettingsEditor/52.23.1388.877@52.23.1388.877" timestamp="1593403001346" />
   </component>
 </project>
