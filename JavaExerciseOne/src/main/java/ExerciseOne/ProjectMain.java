@@ -52,6 +52,12 @@ public class ProjectMain extends Application {
 
     // Main function
     public static void main(String[] args) {
+        student = new RandomStudent();
+        try {
+            student.setUpNameArray();
+        } catch (Exception e) {
+            message = "Unable to open the file, something went wrong";
+        }
         launch(args);
     }
 
@@ -64,14 +70,9 @@ public class ProjectMain extends Application {
 
     // Generate a random name
     public void generateName() {
-        student = new RandomStudent();
-        try {
-            student.chooseRandomName();
-            String name = student.getRandomName();
-            message = "The student: *** " + name + " *** is chosen";
-        } catch (Exception e) {
-            message = "Unable to open the file, something went wrong";
-        }
+        student.chooseRandomName();
+        String name = student.getRandomName();
+        message = "*** " + name + " *** is chosen. Left: " + student.getNumberOfLines();
     }
 
     // Set up the window
@@ -90,7 +91,7 @@ public class ProjectMain extends Application {
         vBox_display = new VBox(40, hBox_message,hBox_button);
         vBox_display.setAlignment(Pos.CENTER);
         root.setCenter(vBox_display);
-        scene = new Scene(root, 350,200);
+        scene = new Scene(root, 400,220);
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);
         primaryStage.show();
@@ -100,7 +101,12 @@ public class ProjectMain extends Application {
     private void buttonClick(final Stage primaryStage) {
         btn_generate.setOnAction(new EventHandler<ActionEvent>() {
             public void handle(ActionEvent event) {
-                generateName();
+                if (student.flag) {
+                    btn_generate.setDisable(true);
+                    message = "All people in the class has been selected";
+                } else {
+                    generateName();
+                }
                 txt_display.setText(message);
             }
         });

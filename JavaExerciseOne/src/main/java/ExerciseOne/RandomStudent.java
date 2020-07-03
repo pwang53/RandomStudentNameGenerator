@@ -13,21 +13,31 @@ public class RandomStudent {
     // The name randomly chosen;
     private String randomName = null;
 
+    // Flag to check if the name has been all selected
+    public boolean flag = false;
+
     // Getter for randomName
     public String getRandomName() {
         return this.randomName;
     }
 
+    public int getNumberOfLines() {return this.numberOfLines;}
+
     // Choose a random name
-    public void chooseRandomName() throws Exception {
-        // Read file and store names into array
-        this.setUpNameArray();
+    public void chooseRandomName() {
+        if (nameArray[0] == null) {
+            return;
+        }
+
+        if (nameArray[1] == null) {
+            flag = true;
+        }
 
         // Get the random prepared for choosing a random name
         Random rand = new Random();
 
         // Get the random number
-        int random = rand.nextInt(numberOfLines);
+        int random = rand.nextInt(numberOfLines--);
 
         // Get the name
         String nameBeChosen = nameArray[random];
@@ -36,10 +46,12 @@ public class RandomStudent {
         System.out.println("The student: *** " + nameBeChosen + " *** is chosen");
 
         this.randomName = nameBeChosen;
+
+        removeNameInArray(random);
     }
 
     // Read from file and store the name into array
-    private void setUpNameArray() throws Exception {
+    public void setUpNameArray() throws Exception {
         // Get the file
         //File file = new File("src/main/resources/NameList.txt");
 
@@ -76,5 +88,13 @@ public class RandomStudent {
         this.nameArray = newArray;
     }
 
+    private void removeNameInArray(int index) {
+        String[] anotherArray = new String[nameArray.length - 1];
+        for (int i = 0, k = 0; i < nameArray.length; i++) {
+            if (i == index) continue;
+            anotherArray[k++] = nameArray[i];
+        }
 
+        nameArray = anotherArray;
+    }
 }
